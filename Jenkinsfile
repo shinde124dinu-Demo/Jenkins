@@ -9,7 +9,7 @@ pipeline {
                 // Get some code from a GitHub repository
                 git 'https://github.com/jglick/simple-maven-project-with-tests.git'
                 //my first changes done
-                //Mygithub changess
+                //Mygithub changesss
                 // Run the build on a Unix agent. You must have Maven installed.
                 sh 'mvn -Dmaven.test.failure.ignore=true clean package'
 
